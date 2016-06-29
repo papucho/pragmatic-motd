@@ -1,22 +1,30 @@
 {
- "bin" : {
+  "author": "Fernando Araújo <papucho86@gmail.com>",
+  "bin" : {
     "pragmatic-motd" : "./index.js"
   },
-  "name": "pragmatic-motd",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bugs": {
+    "url": "https://github.com/papucho/pragmatic-motd/issues"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "colors": "^1.1.2"
+    "colors": "1.1.2"
   },
+  "description": "Simple CLI that shows a random tip from the book \"The Pragmatic Programmer\"",
+  "engines": {
+    "node": ">=5"
+  },
+  "keywords": [
+    "motd",
+    "the pragmatic programmer"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "pragmatic-motd",
+  "os" : [ "!win32" ],
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/papucho/pragmatic-motd.git"
-  }
+  },
+  "version": "0.0.2"
 }
