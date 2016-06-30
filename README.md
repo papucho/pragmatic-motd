@@ -8,6 +8,16 @@ These tip belong to the book [The Pragmatic Programmer (by Andrew Hunt and David
 
 If you're a programmer (or software engineer or whatever) you should read it. It's awesome.
 
+## How to install
+
+Just install this package as global:
+
+```bash
+$ npm install -g pragmatic-motd
+```
+
+Done.
+
 ## How to run
 
 The idea of this package is to be used as a `motd`, showing a message every time you create a new bash session.
