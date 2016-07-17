@@ -1,7 +1,7 @@
 {
   "author": "Fernando Araújo <papucho86@gmail.com>",
-  "bin" : {
-    "pragmatic-motd" : "./index.js"
+  "bin": {
+    "pragmatic-motd": "./index.js"
   },
   "bugs": {
     "url": "https://github.com/papucho/pragmatic-motd/issues"
@@ -20,11 +20,13 @@
   "license": "MIT",
   "main": "index.js",
   "name": "pragmatic-motd",
-  "os" : [ "!win32" ],
+  "os": [
+    "!win32"
+  ],
   "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/papucho/pragmatic-motd.git"
   },
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
