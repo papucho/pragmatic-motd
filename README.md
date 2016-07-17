@@ -1,4 +1,4 @@
-# Pramgatic message of the day
+# Pragmatic message of the day
 
 ---
 
