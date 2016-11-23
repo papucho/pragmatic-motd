@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-const QUOTES = require('./data/quotes');
+const QUOTES = require('../data/quotes');
 const colors = require('colors/safe');
 
 /**

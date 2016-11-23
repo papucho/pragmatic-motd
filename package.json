@@ -1,7 +1,7 @@
 {
   "author": "Fernando Araújo <papucho86@gmail.com>",
   "bin": {
-    "pragmatic-motd": "./index.js"
+    "pragmatic-motd": "./dist/index.js"
   },
   "bugs": {
     "url": "https://github.com/papucho/pragmatic-motd/issues"
@@ -10,6 +10,10 @@
     "colors": "1.1.2"
   },
   "description": "Simple CLI that shows a random tip from the book \"The Pragmatic Programmer\"",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "6.18.0"
+  },
   "engines": {
     "node": ">=5"
   },
@@ -18,7 +22,7 @@
     "the pragmatic programmer"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
   "name": "pragmatic-motd",
   "os": [
     "!win32"
@@ -27,6 +31,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/papucho/pragmatic-motd.git"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && babel src/index.js --out-file dist/index.js"
   },
   "version": "0.0.4"
 }
